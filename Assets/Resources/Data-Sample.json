@@ -1,0 +1,39 @@
+{
+    "cases": [
+        {
+            "id": "case_003",
+            "title": "",
+            "description": "",
+            "suspects": {
+                "suspect_a": {
+                    "id": "case_3_a",
+                    "portrait": "case_3_a.png",
+                    "name": ""
+                },
+                "suspect_b": {
+                    "id": "case_3_b",
+                    "portrait": "case_3_b.png",
+                    "name": ""
+                }
+            },
+            "clues": {
+                "text_clue": {
+                    "content": ""
+                },
+                "image_clue": {
+                    "image": "clue_3.png",
+                    "required_item": "magnifying_glass"
+                }
+            },
+            "solution": {
+                "culprit_id": "case_3_a",
+                "innocent_id": "case_3_b",
+                "explanation": ""
+            },
+            "score": {
+                "points_on_correct": 150,
+                "penalty_per_clue_used": 30
+            }
+        }
+    ]
+}

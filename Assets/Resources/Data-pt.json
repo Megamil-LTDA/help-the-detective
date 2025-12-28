@@ -2,8 +2,8 @@
     "cases": [
         {
             "id": "case_001",
-            "title": "Cabeça ensanguentada",
-            "description": "Na cena do crime, onde uma pessoa foi assasinada, a unica testemunha, disse que o culpado estava com a cabeça cortada.",
+            "title": "Ensanguentado",
+            "description": "Na cena do crime, onde uma pessoa foi assassinada, a única testemunha disse que o culpado estava com a cabeça cortada.",
             "suspects": {
                 "suspect_a": {
                     "id": "case_1_a",
@@ -18,7 +18,7 @@
             },
             "clues": {
                 "text_clue": {
-                    "content": "O homem de boné, não quer tirar o chapéu pois está frio."
+                    "content": "O homem de boné não quer tirá-lo pois está frio."
                 },
                 "image_clue": {
                     "image": "clue_1.png",
@@ -37,33 +37,33 @@
         },
         {
             "id": "case_002",
-            "title": "O Guarda-Chuva",
-            "description": "(Homem de Casaco) Um crime ocorreu em plena rua. Dois suspeitos afirmam estar dizendo a verdade.",
+            "title": "Assalto à loja",
+            "description": "Após um assalto, 2 indivíduos suspeitos estão sendo investigados. Ajude a descobrir qual é o verdadeiro criminoso.",
             "suspects": {
                 "suspect_a": {
-                    "id": "umbrella_man",
-                    "portrait": "suspect_umbrella.png",
-                    "name": "Homem do Guarda-Chuva"
+                    "id": "case_2_a",
+                    "portrait": "case_2_a.png",
+                    "name": "Carlos"
                 },
                 "suspect_b": {
-                    "id": "jacket_man",
-                    "portrait": "suspect_jacket.png",
-                    "name": "Homem de Casaco"
+                    "id": "case_2_b",
+                    "portrait": "case_2_b.png",
+                    "name": "Desconhecido"
                 }
             },
             "clues": {
                 "text_clue": {
-                    "content": "A vítima afirmou que estava chovendo no momento do crime."
+                    "content": "O ladrão tem muito cabelo."
                 },
                 "image_clue": {
-                    "image": "street_weather_detail.png",
+                    "image": "clue_2.png",
                     "required_item": "magnifying_glass"
                 }
             },
             "solution": {
-                "culprit_id": "jacket_man",
-                "innocent_id": "umbrella_man",
-                "explanation": "Apesar da afirmação da vítima, imagens mostram que não havia chuva. O homem do guarda-chuva apenas carregava o objeto, enquanto o homem de casaco mentiu sobre o clima."
+                "culprit_id": "case_2_a",
+                "innocent_id": "case_2_b",
+                "explanation": "O desconhecido era um policial. Por isso estava com a arma na mão."
             },
             "score": {
                 "points_on_correct": 120,
@@ -72,33 +72,33 @@
         },
         {
             "id": "case_003",
-            "title": "O Relógio Quebrado",
-            "description": "(Homem do Relógio) O horário do crime é a chave para resolver este mistério.",
+            "title": "Antes do crime",
+            "description": "Estamos investigando um assassinato. Sabemos que o culpado foi atingido pela vítima antes do ocorrido.",
             "suspects": {
                 "suspect_a": {
-                    "id": "watch_man",
-                    "portrait": "suspect_watch.png",
-                    "name": "Homem do Relógio"
+                    "id": "case_3_a",
+                    "portrait": "case_3_a.png",
+                    "name": "Javi"
                 },
                 "suspect_b": {
-                    "id": "phone_man",
-                    "portrait": "suspect_phone.png",
-                    "name": "Homem do Celular"
+                    "id": "case_3_b",
+                    "portrait": "case_3_b.png",
+                    "name": "Edward"
                 }
             },
             "clues": {
                 "text_clue": {
-                    "content": "A vítima disse que olhou o relógio pouco antes de morrer."
+                    "content": "31 de outubro"
                 },
                 "image_clue": {
-                    "image": "broken_watch_detail.png",
+                    "image": "clue_3.png",
                     "required_item": "magnifying_glass"
                 }
             },
             "solution": {
-                "culprit_id": "watch_man",
-                "innocent_id": "phone_man",
-                "explanation": "O relógio do suspeito estava quebrado há dias. Ele mentiu sobre o horário. O outro suspeito usava o celular, que confirmava o tempo correto."
+                "culprit_id": "case_3_a",
+                "innocent_id": "case_3_b",
+                "explanation": "Javi estava com o braço perfurado por um pedaço de vidro. Ele foi visto fugindo da casa."
             },
             "score": {
                 "points_on_correct": 150,

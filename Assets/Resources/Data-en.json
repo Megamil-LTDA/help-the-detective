@@ -2,68 +2,68 @@
     "cases": [
         {
             "id": "case_001",
-            "title": "The Red Stain",
-            "description": "Two suspects stand before you. One of them is lying. Observe carefully and discover the truth.",
+            "title": "Bloodied",
+            "description": "At the crime scene, where a person was murdered, the only witness said the culprit had a cut on their head.",
             "suspects": {
                 "suspect_a": {
-                    "id": "bald_man",
-                    "portrait": "suspect_bald.png",
+                    "id": "case_1_a",
+                    "portrait": "case_1_a.png",
                     "name": "Bald Man"
                 },
                 "suspect_b": {
-                    "id": "cap_man",
-                    "portrait": "suspect_cap.png",
+                    "id": "case_1_b",
+                    "portrait": "case_1_b.png",
                     "name": "Man with Cap"
                 }
             },
             "clues": {
                 "text_clue": {
-                    "content": "The victim remembers that the killer had an injury on their head."
+                    "content": "The man with the cap doesn't want to take it off because it's cold."
                 },
                 "image_clue": {
-                    "image": "kitchen_detail.png",
+                    "image": "clue_1.png",
                     "required_item": "magnifying_glass"
                 }
             },
             "solution": {
-                "culprit_id": "cap_man",
-                "innocent_id": "bald_man",
-                "explanation": "The bald man had tomato juice on his head from cutting fruits in the kitchen. The man with the cap was hiding an injury and lied about the weather."
+                "culprit_id": "case_1_b",
+                "innocent_id": "case_1_a",
+                "explanation": "The bald man had tomato juice on his head from cutting fruits in the kitchen. The man with the cap was hiding an injury."
             },
             "score": {
-                "points_on_correct": 100,
-                "penalty_per_clue_used": 20
+                "points_on_correct": 130,
+                "penalty_per_clue_used": 30
             }
         },
         {
             "id": "case_002",
-            "title": "The Umbrella",
-            "description": "A crime occurred on the street. Two suspects claim to be telling the truth.",
+            "title": "Store Robbery",
+            "description": "After a robbery, 2 suspicious individuals are being investigated. Help discover who the real criminal is.",
             "suspects": {
                 "suspect_a": {
-                    "id": "umbrella_man",
-                    "portrait": "suspect_umbrella.png",
-                    "name": "Man with Umbrella"
+                    "id": "case_2_a",
+                    "portrait": "case_2_a.png",
+                    "name": "Carlos"
                 },
                 "suspect_b": {
-                    "id": "jacket_man",
-                    "portrait": "suspect_jacket.png",
-                    "name": "Man with Jacket"
+                    "id": "case_2_b",
+                    "portrait": "case_2_b.png",
+                    "name": "Unknown"
                 }
             },
             "clues": {
                 "text_clue": {
-                    "content": "The victim stated it was raining at the time of the crime."
+                    "content": "The thief has lots of hair."
                 },
                 "image_clue": {
-                    "image": "street_weather_detail.png",
+                    "image": "clue_2.png",
                     "required_item": "magnifying_glass"
                 }
             },
             "solution": {
-                "culprit_id": "jacket_man",
-                "innocent_id": "umbrella_man",
-                "explanation": "Despite the victim's statement, images show there was no rain. The man with the umbrella was simply carrying it, while the man with the jacket lied about the weather."
+                "culprit_id": "case_2_a",
+                "innocent_id": "case_2_b",
+                "explanation": "The unknown man was a police officer. That's why he had a gun in his hand."
             },
             "score": {
                 "points_on_correct": 120,
@@ -72,33 +72,33 @@
         },
         {
             "id": "case_003",
-            "title": "The Broken Watch",
-            "description": "The time of the crime is the key to solving this mystery.",
+            "title": "Before the Crime",
+            "description": "We are investigating a murder. We know the culprit was struck by the victim before the incident.",
             "suspects": {
                 "suspect_a": {
-                    "id": "watch_man",
-                    "portrait": "suspect_watch.png",
-                    "name": "Man with Watch"
+                    "id": "case_3_a",
+                    "portrait": "case_3_a.png",
+                    "name": "Javi"
                 },
                 "suspect_b": {
-                    "id": "phone_man",
-                    "portrait": "suspect_phone.png",
-                    "name": "Man with Phone"
+                    "id": "case_3_b",
+                    "portrait": "case_3_b.png",
+                    "name": "Edward"
                 }
             },
             "clues": {
                 "text_clue": {
-                    "content": "The victim said they looked at the watch shortly before dying."
+                    "content": "October 31st"
                 },
                 "image_clue": {
-                    "image": "broken_watch_detail.png",
+                    "image": "clue_3.png",
                     "required_item": "magnifying_glass"
                 }
             },
             "solution": {
-                "culprit_id": "watch_man",
-                "innocent_id": "phone_man",
-                "explanation": "The suspect's watch had been broken for days. He lied about the time. The other suspect was using his phone, which confirmed the correct time."
+                "culprit_id": "case_3_a",
+                "innocent_id": "case_3_b",
+                "explanation": "Javi had his arm pierced by a piece of glass. He was seen fleeing the house."
             },
             "score": {
                 "points_on_correct": 150,
