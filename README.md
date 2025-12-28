@@ -1,0 +1,172 @@
+# 🕵️ Help the Detective
+
+Um jogo investigativo desenvolvido para a [Tiny Game Jam (12/25)](https://itch.io/jam/tiny-game-jam-12-25).
+
+## 📖 Sobre o Projeto
+
+**Help the Detective** é um jogo de dedução onde você assume o papel de um detetive iniciante tentando entrar em uma área altamente restrita de investigação privada. Antes de ser aceito, você deve resolver uma série de casos antigos e não resolvidos, onde as evidências parecem apontar para uma verdade óbvia — mas estão erradas.
+
+Este é um projeto especial criado em **parceria entre pai e filho**:
+- **Eduardo dos Santos** - Desenvolvedor de software
+- **Eduardo dos Santos Jr.** (11 anos) - Designer e artista
+
+### 🎂 Uma Data Especial
+
+O projeto foi submetido em **28 de dezembro**, data que coincide com o aniversário do Eduardo (pai), tornando este projeto ainda mais significativo. Poder criar algo lado a lado com meu filho e finalizar nesta data já é uma recompensa por si só.
+
+---
+
+## 🎮 Sobre o Jogo
+
+### Mecânica Principal
+
+Cada caso apresenta **dois suspeitos** e você deve descobrir qual deles está mentindo. O jogo testa sua capacidade de:
+
+- 🔍 Olhar além das aparências
+- 🧩 Entender o contexto
+- ❓ Questionar conclusões fáceis
+
+### Recursos do Jogo
+
+- **3 casos investigativos** com histórias únicas
+- **Sistema de dicas** (texto e imagem) com penalidade de pontos
+- **Sistema de pontuação** baseado em acertos e dicas utilizadas
+- **Dois idiomas**: Português (PT-BR) e Inglês (EN)
+- **Finais diferentes** baseados na performance (70% de acerto para vitória)
+
+---
+
+## 🎯 Tiny Game Jam (12/25)
+
+Este jogo foi desenvolvido para a **[Tiny Game Jam (12/25)](https://itch.io/jam/tiny-game-jam-12-25)**, uma game jam focada em projetos pequenos e concisos.
+
+### Timeline do Desenvolvimento
+
+- **26/12/2025** - Início do projeto, brainstorming e conceitos visuais
+- **27/12/2025** - Desenvolvimento da mecânica principal
+- **28/12/2025** - Finalização e submissão
+
+### Foco da Jam
+
+O objetivo era manter o escopo **pequeno e focado**, enquanto experimentávamos com narrativa através de interpretação visual e contexto — adequado ao espírito de uma game jam curta.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+### Engine e Ferramentas
+
+- **Unity** - Game Engine
+- **C#** - Linguagem de programação
+- **TextMeshPro** - Sistema de texto
+- **Input System** - Sistema de controle
+
+### Assets e Recursos
+
+- Alguns sprites e sons foram obtidos de **recursos livres de direitos autorais**
+- Nem todas as imagens foram geradas por IA — **vários desenhos e ideias vieram diretamente do Eduardo Jr.**
+
+### Ferramentas de IA
+
+Utilizamos ferramentas de IA como **Gemini (Nano Banana)** e **ChatGPT**, principalmente para:
+
+- Ajudar a traduzir a história e textos para inglês
+- Auxiliar com conceitos e refinamento de imagens
+- Melhorar clareza e consistência do conteúdo escrito
+
+> **Importante:** A IA foi usada como **ferramenta de apoio**, não como substituta da criatividade. O projeto combina ideias humanas, aprendizado, experimentação e diversão.
+
+---
+
+## 🎨 Características Técnicas
+
+### Sistema de Localização
+
+- **Dois idiomas completos**: Português e Inglês
+- **Troca de idioma em tempo real** sem necessidade de reiniciar
+- **Textos traduzidos**: Interface, história, casos e soluções
+
+### Sistema de Pontuação
+
+```
+Pontos Ganhos = Pontos Base - (Dicas Usadas × Penalidade por Dica)
+```
+
+- Caso 001: 100 pontos (penalidade: 20 por dica)
+- Caso 002: 120 pontos (penalidade: 25 por dica)
+- Caso 003: 150 pontos (penalidade: 30 por dica)
+
+**Total máximo:** 370 pontos
+
+### Recursos de Gameplay
+
+- 🎲 **Casos embaralhados** - Ordem aleatória a cada partida
+- 🔀 **Posições randomizadas** - Suspeitos aparecem em posições diferentes
+- 💡 **Sistema de dicas** com penalidade
+- 🏆 **Sistema de vitória/derrota** baseado em 70% de aproveitamento
+
+---
+
+## 🎓 Aprendizados
+
+Este projeto foi uma oportunidade incrível de:
+
+- **Pai e filho trabalhando juntos** em um projeto criativo
+- Aprender sobre **desenvolvimento de jogos** na prática
+- Experimentar com **narrativa e design de puzzles**
+- Gerenciar **escopo e tempo** em uma game jam
+- Usar **IA como ferramenta de apoio**, não como substituta
+
+---
+
+## 👨‍👦 Sobre os Criadores
+
+**Eduardo dos Santos**
+- Desenvolvedor de software em uma grande multinacional brasileira
+- Não trabalha profissionalmente com jogos
+- Este jogo existe por curiosidade, criatividade e o desejo de criar algo significativo com seu filho
+
+**Eduardo dos Santos Jr. (11 anos)**
+- Designer e artista do projeto
+- Responsável por vários desenhos e ideias originais
+- Primeira experiência em desenvolvimento de jogos
+
+---
+
+## 📝 Licença e Créditos
+
+Este é um projeto educacional e experimental criado para a Tiny Game Jam.
+
+**Créditos:**
+- Desenvolvimento e Design: Eduardo dos Santos & Eduardo dos Santos Jr.
+- Ferramentas de IA: Gemini (Nano Banana), ChatGPT
+- Assets: Recursos livres de direitos autorais + arte original
+
+---
+
+## 🎮 Como Jogar
+
+1. Leia a descrição do caso
+2. Observe os dois suspeitos
+3. Use dicas se necessário (mas perde pontos!)
+4. Escolha quem você acha que é o culpado
+5. Veja a explicação e descubra se acertou
+
+**Controles:**
+- Mouse/Touch para selecionar opções
+- Espaço para fechar dicas e modais
+- Interface intuitiva
+
+---
+
+## 🌟 Agradecimentos
+
+Obrigado por jogar **Help the Detective**! Este projeto representa muito mais do que um jogo — representa tempo de qualidade, aprendizado e criatividade compartilhados entre pai e filho.
+
+Se você gostou, considere deixar um feedback na [página da jam](https://itch.io/jam/tiny-game-jam-12-25)!
+
+---
+
+**Feito com ❤️ por Eduardo dos Santos e Eduardo dos Santos Jr.**
+
+*Desenvolvido entre 26-28 de dezembro de 2025*

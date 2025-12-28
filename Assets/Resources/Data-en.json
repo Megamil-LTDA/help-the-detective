@@ -1,0 +1,109 @@
+{
+    "cases": [
+        {
+            "id": "case_001",
+            "title": "The Red Stain",
+            "description": "Two suspects stand before you. One of them is lying. Observe carefully and discover the truth.",
+            "suspects": {
+                "suspect_a": {
+                    "id": "bald_man",
+                    "portrait": "suspect_bald.png",
+                    "name": "Bald Man"
+                },
+                "suspect_b": {
+                    "id": "cap_man",
+                    "portrait": "suspect_cap.png",
+                    "name": "Man with Cap"
+                }
+            },
+            "clues": {
+                "text_clue": {
+                    "content": "The victim remembers that the killer had an injury on their head."
+                },
+                "image_clue": {
+                    "image": "kitchen_detail.png",
+                    "required_item": "magnifying_glass"
+                }
+            },
+            "solution": {
+                "culprit_id": "cap_man",
+                "innocent_id": "bald_man",
+                "explanation": "The bald man had tomato juice on his head from cutting fruits in the kitchen. The man with the cap was hiding an injury and lied about the weather."
+            },
+            "score": {
+                "points_on_correct": 100,
+                "penalty_per_clue_used": 20
+            }
+        },
+        {
+            "id": "case_002",
+            "title": "The Umbrella",
+            "description": "A crime occurred on the street. Two suspects claim to be telling the truth.",
+            "suspects": {
+                "suspect_a": {
+                    "id": "umbrella_man",
+                    "portrait": "suspect_umbrella.png",
+                    "name": "Man with Umbrella"
+                },
+                "suspect_b": {
+                    "id": "jacket_man",
+                    "portrait": "suspect_jacket.png",
+                    "name": "Man with Jacket"
+                }
+            },
+            "clues": {
+                "text_clue": {
+                    "content": "The victim stated it was raining at the time of the crime."
+                },
+                "image_clue": {
+                    "image": "street_weather_detail.png",
+                    "required_item": "magnifying_glass"
+                }
+            },
+            "solution": {
+                "culprit_id": "jacket_man",
+                "innocent_id": "umbrella_man",
+                "explanation": "Despite the victim's statement, images show there was no rain. The man with the umbrella was simply carrying it, while the man with the jacket lied about the weather."
+            },
+            "score": {
+                "points_on_correct": 120,
+                "penalty_per_clue_used": 25
+            }
+        },
+        {
+            "id": "case_003",
+            "title": "The Broken Watch",
+            "description": "The time of the crime is the key to solving this mystery.",
+            "suspects": {
+                "suspect_a": {
+                    "id": "watch_man",
+                    "portrait": "suspect_watch.png",
+                    "name": "Man with Watch"
+                },
+                "suspect_b": {
+                    "id": "phone_man",
+                    "portrait": "suspect_phone.png",
+                    "name": "Man with Phone"
+                }
+            },
+            "clues": {
+                "text_clue": {
+                    "content": "The victim said they looked at the watch shortly before dying."
+                },
+                "image_clue": {
+                    "image": "broken_watch_detail.png",
+                    "required_item": "magnifying_glass"
+                }
+            },
+            "solution": {
+                "culprit_id": "watch_man",
+                "innocent_id": "phone_man",
+                "explanation": "The suspect's watch had been broken for days. He lied about the time. The other suspect was using his phone, which confirmed the correct time."
+            },
+            "score": {
+                "points_on_correct": 150,
+                "penalty_per_clue_used": 30
+            }
+        }
+    ]
+}

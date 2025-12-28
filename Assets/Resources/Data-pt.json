@@ -1,0 +1,109 @@
+{
+    "cases": [
+        {
+            "id": "case_001",
+            "title": "Cabeça ensanguentada",
+            "description": "Na cena do crime, onde uma pessoa foi assasinada, a unica testemunha, disse que o culpado estava com a cabeça cortada.",
+            "suspects": {
+                "suspect_a": {
+                    "id": "case_1_a",
+                    "portrait": "case_1_a.png",
+                    "name": "Homem Careca"
+                },
+                "suspect_b": {
+                    "id": "case_1_b",
+                    "portrait": "case_1_b.png",
+                    "name": "Homem de Boné"
+                }
+            },
+            "clues": {
+                "text_clue": {
+                    "content": "O homem de boné, não quer tirar o chapéu pois está frio."
+                },
+                "image_clue": {
+                    "image": "clue_1.png",
+                    "required_item": "magnifying_glass"
+                }
+            },
+            "solution": {
+                "culprit_id": "case_1_b",
+                "innocent_id": "case_1_a",
+                "explanation": "O homem careca estava com suco de tomate na cabeça por ter cortado frutas na cozinha. O homem de boné escondia um machucado."
+            },
+            "score": {
+                "points_on_correct": 130,
+                "penalty_per_clue_used": 30
+            }
+        },
+        {
+            "id": "case_002",
+            "title": "O Guarda-Chuva",
+            "description": "(Homem de Casaco) Um crime ocorreu em plena rua. Dois suspeitos afirmam estar dizendo a verdade.",
+            "suspects": {
+                "suspect_a": {
+                    "id": "umbrella_man",
+                    "portrait": "suspect_umbrella.png",
+                    "name": "Homem do Guarda-Chuva"
+                },
+                "suspect_b": {
+                    "id": "jacket_man",
+                    "portrait": "suspect_jacket.png",
+                    "name": "Homem de Casaco"
+                }
+            },
+            "clues": {
+                "text_clue": {
+                    "content": "A vítima afirmou que estava chovendo no momento do crime."
+                },
+                "image_clue": {
+                    "image": "street_weather_detail.png",
+                    "required_item": "magnifying_glass"
+                }
+            },
+            "solution": {
+                "culprit_id": "jacket_man",
+                "innocent_id": "umbrella_man",
+                "explanation": "Apesar da afirmação da vítima, imagens mostram que não havia chuva. O homem do guarda-chuva apenas carregava o objeto, enquanto o homem de casaco mentiu sobre o clima."
+            },
+            "score": {
+                "points_on_correct": 120,
+                "penalty_per_clue_used": 25
+            }
+        },
+        {
+            "id": "case_003",
+            "title": "O Relógio Quebrado",
+            "description": "(Homem do Relógio) O horário do crime é a chave para resolver este mistério.",
+            "suspects": {
+                "suspect_a": {
+                    "id": "watch_man",
+                    "portrait": "suspect_watch.png",
+                    "name": "Homem do Relógio"
+                },
+                "suspect_b": {
+                    "id": "phone_man",
+                    "portrait": "suspect_phone.png",
+                    "name": "Homem do Celular"
+                }
+            },
+            "clues": {
+                "text_clue": {
+                    "content": "A vítima disse que olhou o relógio pouco antes de morrer."
+                },
+                "image_clue": {
+                    "image": "broken_watch_detail.png",
+                    "required_item": "magnifying_glass"
+                }
+            },
+            "solution": {
+                "culprit_id": "watch_man",
+                "innocent_id": "phone_man",
+                "explanation": "O relógio do suspeito estava quebrado há dias. Ele mentiu sobre o horário. O outro suspeito usava o celular, que confirmava o tempo correto."
+            },
+            "score": {
+                "points_on_correct": 150,
+                "penalty_per_clue_used": 30
+            }
+        }
+    ]
+}
