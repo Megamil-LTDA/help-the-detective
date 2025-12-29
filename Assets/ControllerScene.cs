@@ -133,6 +133,16 @@ public class ControllerScene : MonoBehaviour
         Application.Quit();
     }
 
+    public void OnClickGitHub()
+    {
+        Application.OpenURL("https://github.com/Megamil-LTDA/help-the-detective");
+    }
+
+    public void OnClickGameJam()
+    {
+        Application.OpenURL("https://itch.io/jam/tiny-game-jam-12-25");
+    }
+
     public void SetPortugueseLanguage()
     {
         Debug.Log("Idioma definido para Português (pt-BR)");

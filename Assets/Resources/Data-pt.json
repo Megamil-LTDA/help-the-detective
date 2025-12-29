@@ -37,7 +37,7 @@
         },
         {
             "id": "case_002",
-            "title": "Assalto à loja",
+            "title": "O Assalto",
             "description": "Após um assalto, 2 indivíduos suspeitos estão sendo investigados. Ajude a descobrir qual é o verdadeiro criminoso.",
             "suspects": {
                 "suspect_a": {
