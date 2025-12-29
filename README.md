@@ -1,38 +1,38 @@
 # 🕵️ Help the Detective
 
-Um jogo investigativo desenvolvido para a [Tiny Game Jam (12/25)](https://itch.io/jam/tiny-game-jam-12-25).
+A detective game developed for the [Tiny Game Jam (12/25)](https://itch.io/jam/tiny-game-jam-12-25).
 
-## 📖 Sobre o Projeto
+## 📖 About the Project
 
-**Help the Detective** é um jogo de dedução onde você assume o papel de um detetive iniciante tentando entrar em uma área altamente restrita de investigação privada. Antes de ser aceito, você deve resolver uma série de casos antigos e não resolvidos, onde as evidências parecem apontar para uma verdade óbvia — mas estão erradas.
+**Help the Detective** is a deduction game where you take on the role of a detective at the beginning of your career, trying to enter a highly restricted field of private investigation. Before being accepted, you must solve a series of old, unsolved cases where the evidence seems to point to an obvious truth — but is wrong.
 
-Este é um projeto especial criado em **parceria entre pai e filho**:
-- **Eduardo dos Santos** - Desenvolvedor de software
-- **Eduardo dos Santos Jr.** (11 anos) - Designer e artista
+This is a special project created in **partnership between father and son**:
+- **Eduardo dos Santos** - Software Developer
+- **Eduardo dos Santos Jr.** (11 years old) - Designer and Artist
 
-### 🎂 Uma Data Especial
+### 🎂 A Special Date
 
-O projeto foi submetido em **28 de dezembro**, data que coincide com o aniversário do Eduardo (pai), tornando este projeto ainda mais significativo. Poder criar algo lado a lado com meu filho e finalizar nesta data já é uma recompensa por si só.
+The project was submitted on **December 28th**, a date that coincides with Eduardo's (father) birthday, making this project even more meaningful. Being able to create something side by side with my son and finish it on this date is already a reward in itself.
 
 ---
 
-## 🎮 Sobre o Jogo
+## 🎮 About the Game
 
-### Mecânica Principal
+### Core Mechanic
 
-Cada caso apresenta **dois suspeitos** e você deve descobrir qual deles está mentindo. O jogo testa sua capacidade de:
+Each case presents **two suspects** and you must discover which one is lying. The game tests your ability to:
 
-- 🔍 Olhar além das aparências
-- 🧩 Entender o contexto
-- ❓ Questionar conclusões fáceis
+- 🔍 Look beyond appearances
+- 🧩 Understand context
+- ❓ Question easy conclusions
 
-### Recursos do Jogo
+### Game Features
 
-- **3 casos investigativos** com histórias únicas
-- **Sistema de dicas** (texto e imagem) com penalidade de pontos
-- **Sistema de pontuação** baseado em acertos e dicas utilizadas
-- **Dois idiomas**: Português (PT-BR) e Inglês (EN)
-- **Finais diferentes** baseados na performance (70% de acerto para vitória)
+- **3 investigative cases** with unique stories
+- **Clue system** (text and image) with point penalties
+- **Scoring system** based on correct answers and clues used
+- **Two languages**: Portuguese (PT-BR) and English (EN)
+- **Different endings** based on performance (70% accuracy for victory)
 
 ### Screenshots
 
@@ -54,135 +54,251 @@ Cada caso apresenta **dois suspeitos** e você deve descobrir qual deles está m
 
 ## 🎯 Tiny Game Jam (12/25)
 
-Este jogo foi desenvolvido para a **[Tiny Game Jam (12/25)](https://itch.io/jam/tiny-game-jam-12-25)**, uma game jam focada em projetos pequenos e concisos.
+This game was developed for the **[Tiny Game Jam (12/25)](https://itch.io/jam/tiny-game-jam-12-25)**, a game jam focused on small and concise projects.
 
-### Timeline do Desenvolvimento
+### Development Timeline
 
-- **26/12/2025** - Início do projeto, brainstorming e conceitos visuais
-- **27/12/2025** - Desenvolvimento da mecânica principal
-- **28/12/2025** - Finalização e submissão
+- **12/26/2024** - Project start, brainstorming and visual concepts
+- **12/27/2024** - Main mechanics development
+- **12/28/2024** - Finalization and submission
 
-### Foco da Jam
+### Jam Focus
 
-O objetivo era manter o escopo **pequeno e focado**, enquanto experimentávamos com narrativa através de interpretação visual e contexto — adequado ao espírito de uma game jam curta.
+The goal was to keep the scope **small and focused**, while experimenting with storytelling through visual interpretation and context — fitting the spirit of a short game jam.
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Technologies Used
 
-### Engine e Ferramentas
+### Engine and Tools
 
 - **Unity** - Game Engine
-- **C#** - Linguagem de programação
-- **TextMeshPro** - Sistema de texto
-- **Input System** - Sistema de controle
+- **C#** - Programming Language
+- **TextMeshPro** - Text System
+- **Input System** - Control System
 
-### Assets e Recursos
+### Assets and Resources
 
-- Alguns sprites e sons foram obtidos de **recursos livres de direitos autorais**
-- Nem todas as imagens foram geradas por IA — **vários desenhos e ideias vieram diretamente do Eduardo Jr.**
+- Some sprites and sounds were obtained from **copyright-free resources**
+- Not all images were AI-generated — **several drawings and ideas came directly from Eduardo Jr.**
 
-### Ferramentas de IA
+### AI Tools
 
-Utilizamos ferramentas de IA como **Gemini (Nano Banana)** e **ChatGPT**, principalmente para:
+We used AI tools such as **Gemini (Nano Banana)** and **ChatGPT**, mainly to:
 
-- Ajudar a traduzir a história e textos para inglês
-- Auxiliar com conceitos e refinamento de imagens
-- Melhorar clareza e consistência do conteúdo escrito
+- Help translate story and texts to English
+- Assist with image concepts and refinement
+- Improve clarity and consistency of written content
 
-> **Importante:** A IA foi usada como **ferramenta de apoio**, não como substituta da criatividade. O projeto combina ideias humanas, aprendizado, experimentação e diversão.
+> **Important:** AI was used as a **supporting tool**, not as a replacement for creativity. The project combines human ideas, learning, experimentation, and fun.
 
 ---
 
-## 🎨 Características Técnicas
+## 🎨 Technical Features
 
-### Sistema de Localização
+### Localization System
 
-- **Dois idiomas completos**: Português e Inglês
-- **Troca de idioma em tempo real** sem necessidade de reiniciar
-- **Textos traduzidos**: Interface, história, casos e soluções
+- **Two complete languages**: Portuguese and English
+- **Real-time language switching** without needing to restart
+- **Translated texts**: Interface, story, cases, and solutions
 
-### Sistema de Pontuação
+### Scoring System
 
 ```
-Pontos Ganhos = Pontos Base - (Dicas Usadas × Penalidade por Dica)
+Points Earned = Base Points - (Clues Used × Penalty per Clue)
 ```
 
-- Caso 001: 100 pontos (penalidade: 20 por dica)
-- Caso 002: 120 pontos (penalidade: 25 por dica)
-- Caso 003: 150 pontos (penalidade: 30 por dica)
+- Case 001: 130 points (penalty: 30 per clue)
+- Case 002: 120 points (penalty: 25 per clue)
+- Case 003: 150 points (penalty: 30 per clue)
 
-**Total máximo:** 370 pontos
+**Maximum total:** 400 points
 
-### Recursos de Gameplay
+### Gameplay Features
 
-- 🎲 **Casos embaralhados** - Ordem aleatória a cada partida
-- 🔀 **Posições randomizadas** - Suspeitos aparecem em posições diferentes
-- 💡 **Sistema de dicas** com penalidade
-- 🏆 **Sistema de vitória/derrota** baseado em 70% de aproveitamento
-
----
-
-## 🎓 Aprendizados
-
-Este projeto foi uma oportunidade incrível de:
-
-- **Pai e filho trabalhando juntos** em um projeto criativo
-- Aprender sobre **desenvolvimento de jogos** na prática
-- Experimentar com **narrativa e design de puzzles**
-- Gerenciar **escopo e tempo** em uma game jam
-- Usar **IA como ferramenta de apoio**, não como substituta
+- 🎲 **Shuffled cases** - Random order each playthrough
+- 🔀 **Randomized positions** - Suspects appear in different positions
+- 💡 **Clue system** with penalty
+- 🏆 **Victory/defeat system** based on 70% performance
 
 ---
 
-## 👨‍👦 Sobre os Criadores
+## 🎓 Lessons Learned
+
+This project was an incredible opportunity to:
+
+- **Father and son working together** on a creative project
+- Learn about **game development** in practice
+- Experiment with **narrative and puzzle design**
+- Manage **scope and time** in a game jam
+- Use **AI as a supporting tool**, not as a replacement
+
+---
+
+## 👨‍👦 About the Creators
 
 **Eduardo dos Santos**
-- Desenvolvedor de software em uma grande multinacional brasileira
-- Não trabalha profissionalmente com jogos
-- Este jogo existe por curiosidade, criatividade e o desejo de criar algo significativo com seu filho
+- Software developer at a large Brazilian multinational
+- Doesn't work professionally with games
+- This game exists out of curiosity, creativity, and the desire to create something meaningful with his son
 
-**Eduardo dos Santos Jr. (11 anos)**
-- Designer e artista do projeto
-- Responsável por vários desenhos e ideias originais
-- Primeira experiência em desenvolvimento de jogos
-
----
-
-## 📝 Licença e Créditos
-
-Este é um projeto educacional e experimental criado para a Tiny Game Jam.
-
-**Créditos:**
-- Desenvolvimento e Design: Eduardo dos Santos & Eduardo dos Santos Jr.
-- Ferramentas de IA: Gemini (Nano Banana), ChatGPT
-- Assets: Recursos livres de direitos autorais + arte original
+**Eduardo dos Santos Jr. (11 years old)**
+- Designer and artist of the project
+- Responsible for several original drawings and ideas
+- First experience in game development
 
 ---
 
-## 🎮 Como Jogar
+## 📝 License and Credits
 
-1. Leia a descrição do caso
-2. Observe os dois suspeitos
-3. Use dicas se necessário (mas perde pontos!)
-4. Escolha quem você acha que é o culpado
-5. Veja a explicação e descubra se acertou
+This is an educational and experimental project created for the Tiny Game Jam.
 
-**Controles:**
-- Mouse/Touch para selecionar opções
-- Espaço para fechar dicas e modais
-- Interface intuitiva
+**Credits:**
+- Development and Design: Eduardo dos Santos & Eduardo dos Santos Jr.
+- AI Tools: Gemini (Nano Banana), ChatGPT
+- Assets: Copyright-free resources + original art
 
 ---
 
-## 🌟 Agradecimentos
+## 🎮 How to Play
 
-Obrigado por jogar **Help the Detective**! Este projeto representa muito mais do que um jogo — representa tempo de qualidade, aprendizado e criatividade compartilhados entre pai e filho.
+1. Read the case description
+2. Observe the two suspects
+3. Use clues if necessary (but you'll lose points!)
+4. Choose who you think is the culprit
+5. See the explanation and find out if you were right
 
-Se você gostou, considere deixar um feedback na [página da jam](https://itch.io/jam/tiny-game-jam-12-25)!
+**Controls:**
+- Mouse/Touch to select options
+- Space to close clues and modals
+- Intuitive interface
 
 ---
 
-**Feito com ❤️ por Eduardo dos Santos e Eduardo dos Santos Jr.**
+## 🚀 Getting Started
 
-*Desenvolvido entre 26-28 de dezembro de 2025*
+### Prerequisites
+
+- **Unity 2021.3 LTS** or newer
+- Basic knowledge of Unity Editor (optional)
+
+### How to Test the Project
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Megamil-LTDA/help-the-detective.git
+   cd help-the-detective
+   ```
+
+2. **Open in Unity**
+   - Open Unity Hub
+   - Click "Add" → Select the project folder
+   - Open the project with Unity 2021.3 LTS or newer
+
+3. **Play the game**
+   - In Unity, open the scene `Assets/Scenes/Home.unity`
+   - Press the Play button ▶️
+   - Enjoy!
+
+---
+
+## 🎨 Create Your Own Version
+
+The game is designed to be easily customizable! You can create your own detective cases by simply editing JSON files and adding images.
+
+### Step 1: Edit the Cases (JSON)
+
+The game data is stored in two files:
+- `Assets/Resources/Data-en.json` (English version)
+- `Assets/Resources/Data-pt.json` (Portuguese version)
+
+**JSON Structure:**
+
+```json
+{
+    "cases": [
+        {
+            "id": "case_001",
+            "title": "Your Case Title",
+            "description": "Case description that appears at the start",
+            "suspects": {
+                "suspect_a": {
+                    "id": "case_1_a",
+                    "portrait": "case_1_a.png",
+                    "name": "Suspect Name"
+                },
+                "suspect_b": {
+                    "id": "case_1_b",
+                    "portrait": "case_1_b.png",
+                    "name": "Suspect Name"
+                }
+            },
+            "clues": {
+                "text_clue": {
+                    "content": "Text clue content"
+                },
+                "image_clue": {
+                    "image": "clue_1.png",
+                    "required_item": "magnifying_glass"
+                }
+            },
+            "solution": {
+                "culprit_id": "case_1_b",
+                "innocent_id": "case_1_a",
+                "explanation": "Explanation of why this suspect is guilty"
+            },
+            "score": {
+                "points_on_correct": 130,
+                "penalty_per_clue_used": 30
+            }
+        }
+    ]
+}
+```
+
+### Step 2: Add Your Images
+
+Place your images in the correct folders:
+
+#### Suspect Portraits
+- **Location**: `Assets/Resources/Imagens/suspects/`
+- **Format**: PNG
+- **Naming**: Must match the `portrait` field in JSON (e.g., `case_1_a.png`)
+
+#### Clue Images
+- **Location**: `Assets/Resources/Imagens/clues/`
+- **Format**: PNG
+- **Naming**: Must match the `image` field in JSON (e.g., `clue_1.png`)
+
+### Step 3: Test Your Changes
+
+1. Save your JSON files
+2. Add your images to the correct folders
+3. Open Unity and press Play ▶️
+4. Your new cases should appear in the game!
+
+### Tips for Creating Cases
+
+- ✅ Keep descriptions concise and intriguing
+- ✅ Make sure the visual clues make sense with the story
+- ✅ Balance the difficulty - not too obvious, not impossible
+- ✅ Test both language versions if using two languages
+- ✅ Adjust points and penalties to balance the game
+
+### Sample Template
+
+Check `Assets/Resources/Data-Sample.json` for a template you can use to create new cases!
+
+---
+
+## 🌟 Acknowledgments
+
+Thank you for playing **Help the Detective**! This project represents much more than a game — it represents quality time, learning, and creativity shared between father and son.
+
+If you enjoyed it, consider leaving feedback on the [jam page](https://itch.io/jam/tiny-game-jam-12-25)!
+
+---
+
+**Made with ❤️ by Eduardo dos Santos and Eduardo dos Santos Jr.**
+
+*Developed between December 26-28, 2024*
