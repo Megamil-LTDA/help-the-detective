@@ -34,6 +34,22 @@ Cada caso apresenta **dois suspeitos** e você deve descobrir qual deles está m
 - **Dois idiomas**: Português (PT-BR) e Inglês (EN)
 - **Finais diferentes** baseados na performance (70% de acerto para vitória)
 
+### Screenshots
+
+<p align="center">
+  <img src="Assets/screenshots/ss_1.png" width="200" alt="Screenshot 1">
+  <img src="Assets/screenshots/ss_2.png" width="200" alt="Screenshot 2">
+  <img src="Assets/screenshots/ss_3.png" width="200" alt="Screenshot 3">
+  <img src="Assets/screenshots/ss_4.png" width="200" alt="Screenshot 4">
+</p>
+
+<p align="center">
+  <img src="Assets/screenshots/ss_5.png" width="200" alt="Screenshot 5">
+  <img src="Assets/screenshots/ss_6.png" width="200" alt="Screenshot 6">
+  <img src="Assets/screenshots/ss_7.png" width="200" alt="Screenshot 7">
+  <img src="Assets/screenshots/ss_8.png" width="200" alt="Screenshot 8">
+</p>
+
 ---
 
 ## 🎯 Tiny Game Jam (12/25)
